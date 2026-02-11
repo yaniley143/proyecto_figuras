@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Triángulo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="card">
+        <h1>🔺 Triángulo</h1>
+        <p>Ingresa los datos</p>
+
+        <form action="calcular.php" method="post">
+            <input type="number" name="base" placeholder="Base" required step="any">
+            <input type="number" name="altura" placeholder="Altura" required step="any">
+            <input type="number" name="lado1" placeholder="Lado 1" required step="any">
+            <input type="number" name="lado2" placeholder="Lado 2" required step="any">
+            <input type="number" name="lado3" placeholder="Lado 3" required step="any">
+
+            <button type="submit">Calcular</button>
+        </form>
+    </div>
+</body>
+</html>
