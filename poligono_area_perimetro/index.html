@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Polígono</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="card">
+        <h1>⬟ Polígono Regular</h1>
+        <p>5 lados o más</p>
+
+        <form action="calcular.php" method="post">
+            <input type="number" name="lados" placeholder="Número de lados (≥5)" min="5" required>
+            <input type="number" name="lado" placeholder="Longitud del lado" required step="any">
+            <input type="number" name="apotema" placeholder="Apotema" required step="any">
+
+            <button type="submit">Calcular</button>
+        </form>
+    </div>
+</body>
+</html>
