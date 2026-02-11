@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Trapecio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="card">
+        <h1>⏢ Trapecio</h1>
+        <p>Ingresa los datos</p>
+
+        <form action="calcular.php" method="post">
+            <input type="number" name="baseMayor" placeholder="Base mayor" required step="any">
+            <input type="number" name="baseMenor" placeholder="Base menor" required step="any">
+            <input type="number" name="altura" placeholder="Altura" required step="any">
+            <input type="number" name="lado1" placeholder="Lado izquierdo" required step="any">
+            <input type="number" name="lado2" placeholder="Lado derecho" required step="any">
+
+            <button type="submit">Calcular</button>
+        </form>
+    </div>
+</body>
+</html>
